@@ -120,6 +120,37 @@ img {
   width: 100%;
 }
 
+/*Información del container*/
+.container__tools {
+  margin: auto;
+  max-width: 1200px;
+  padding: 80px 20px;
+}
+.container__title_tools {
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 40px;
+  line-height: 100%;
+  margin-bottom: 80px;
+}
+.tools_grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 40px;
+}
+.container__image_tools {
+  justify-self: center;
+  width: 80px;
+  height: 80px;
+  transition: transform 0.25s ease;
+  border-radius: 20px;
+}
+.container__image_tools:hover {
+  transform: scale(1.15);
+  cursor: pointer;
+}
+
 /*Responsive*/
 @media screen and (max-width: 1023px) {
   .header {
