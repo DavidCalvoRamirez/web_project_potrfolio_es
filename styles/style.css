@@ -98,17 +98,13 @@ img {
 .header__title {
   font-family: "Archivo Black", sans-serif;
   font-size: 72px;
-  line-height: 1;
 }
 
 .header__rol {
   color: #9a9a9a;
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
   font-weight: 400;
-  font-style: Regular;
   font-size: 18px;
-  line-height: 1;
-  letter-spacing: 0%;
   margin-bottom: 20px;
 }
 
@@ -116,10 +112,7 @@ img {
   color: #fff;
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
   font-weight: 400;
-  font-style: Regular;
   font-size: 18px;
-  line-height: 1;
-  letter-spacing: 10%;
 }
 
 .header__image {
@@ -140,9 +133,7 @@ img {
   color: white;
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
   font-weight: 600;
-  font-style: SemiBold;
   font-size: 18px;
-  line-height: 1;
   padding-bottom: 6px;
 }
 .header__button::after {
@@ -169,9 +160,7 @@ img {
 .container__title_tools {
   font-family: "Archivo Black", sans-serif;
   font-weight: 400;
-  font-style: Regular;
   font-size: 40px;
-  line-height: 100%;
   margin-bottom: 80px;
 }
 .tools_grid {
@@ -201,7 +190,6 @@ img {
 .container__project_title {
   font-family: "Archivo Black", sans-serif;
   font-weight: 700;
-  font-style: Bold;
   font-size: 40px;
 }
 .container__project_grid {
@@ -260,14 +248,11 @@ img {
 }
 .card_project_title {
   font-weight: 700;
-  font-style: Bold;
   font-size: 24px;
-  line-height: 1;
 }
 .card__project_description {
   font-weight: 400;
   font-size: 18px;
-  line-height: 1;
 }
 .project__links {
   display: flex;
